@@ -1,8 +1,8 @@
-dist: "xenial" 
 language: python
-python: 3.7
-before_install:
-  - sudo apt-get update
-  - sudo apt-get install -y python3-pip
-  - python3 -V
-  - pip3 -V
+python:
+  - "2.7"
+cache: pip
+install:
+  - pip install -r requirements.txt
+script:
+  - python navigate1.py
