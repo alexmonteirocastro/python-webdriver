@@ -1,5 +1,4 @@
-sudo: false
-dist: "trusty" # otherwise 'python3-pip' won't be available
+dist: "xenial" 
 language: python
 python: 3.7
 before_install:
