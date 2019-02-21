@@ -4,5 +4,4 @@ language: python
 python: 3.7
 before_install:
   - sudo apt-get update
-  - sudo apt-get install -y libxml2-dev
-  - sudo apt-get install -y chromium-chromedriver python pip3
+  - sudo apt-get install -y pip3
