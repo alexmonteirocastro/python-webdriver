@@ -9,7 +9,7 @@ browserProfile = webdriver.ChromeOptions()
 
 browserProfile.add_experimental_option("mobileEmulation", mobile_emulation)
 
-# browserProfile.add_argument('--headless')
+browserProfile.add_argument('--headless')
 
 driver = webdriver.Chrome(options=browserProfile)
 

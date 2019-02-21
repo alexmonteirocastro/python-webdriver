@@ -6,7 +6,7 @@ import time
 class Navigate():
     def __init__(self):
         self.browserProfile = webdriver.ChromeOptions()
-        # self.browserProfile.add_argument('--headless')
+        self.browserProfile.add_argument('--headless')
         self.browserProfile.add_argument('window-size=2024,1024')
         self.driver = webdriver.Chrome(options=self.browserProfile)
         self.actions = ActionChains(self.driver)
