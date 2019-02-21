@@ -13,3 +13,6 @@ install:
   - pip install -r requirements.txt
 script:
   - python navigate1.py
+  - python navigate2.py
+  - python navigate3.py
+  - python nexus.py
