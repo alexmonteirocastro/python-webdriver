@@ -3,4 +3,6 @@ language: python
 python: 3.7
 before_install:
   - sudo apt-get update
-  - sudo apt-get install -y pip3
+  - sudo apt-get install -y python3-pip
+  - python3 -V
+  - pip3 -V
